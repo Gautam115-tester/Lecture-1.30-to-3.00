@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FireFoxBrowser(failed)">
+    <parameter name="LaunchBrowser" value="firefox"/>
+    <classes>
+      <class name="com.TestNG.CrossBrowsingTest">
+        <methods>
+          <include name="GoogleSearch" invocation-numbers="1"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.TestNG.CrossBrowsingTest -->
+    </classes>
+  </test> <!-- FireFoxBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

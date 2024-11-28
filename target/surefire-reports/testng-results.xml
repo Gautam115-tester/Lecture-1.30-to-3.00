@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-27T15:00:34 IST" name="Suite" finished-at="2024-11-27T15:01:00 IST" duration-ms="26462">
+    <groups>
+    </groups>
+    <test started-at="2024-11-27T15:00:34 IST" name="chromebrowser" finished-at="2024-11-27T15:00:43 IST" duration-ms="9294">
+      <class name="com.Logger.SauceDemoLogin">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.Logger.SauceDemoLogin@36916eb0]" started-at="2024-11-27T15:00:34 IST" name="LaunchBrowser" finished-at="2024-11-27T15:00:42 IST" duration-ms="8335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="login()[pri:0, instance:com.Logger.SauceDemoLogin@36916eb0]" started-at="2024-11-27T15:00:42 IST" name="login" finished-at="2024-11-27T15:00:43 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Logger.SauceDemoLogin@36916eb0]" started-at="2024-11-27T15:00:43 IST" name="logout" finished-at="2024-11-27T15:00:43 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.Logger.SauceDemoLogin -->
+    </test> <!-- chromebrowser -->
+    <test started-at="2024-11-27T15:00:43 IST" name="firefoxbrowser" finished-at="2024-11-27T15:01:00 IST" duration-ms="17139">
+      <class name="com.Logger.SauceDemoLogin">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.Logger.SauceDemoLogin@26d9b808]" started-at="2024-11-27T15:00:43 IST" name="LaunchBrowser" finished-at="2024-11-27T15:00:57 IST" duration-ms="14165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="login()[pri:0, instance:com.Logger.SauceDemoLogin@26d9b808]" started-at="2024-11-27T15:00:57 IST" name="login" finished-at="2024-11-27T15:00:59 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Logger.SauceDemoLogin@26d9b808]" started-at="2024-11-27T15:00:59 IST" name="logout" finished-at="2024-11-27T15:01:00 IST" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.Logger.SauceDemoLogin -->
+    </test> <!-- firefoxbrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
